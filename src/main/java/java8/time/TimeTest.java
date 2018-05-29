@@ -84,10 +84,11 @@ public class TimeTest {
         //使用时钟
         // Returns the current time based on your system clock and set to UTC.
         Clock clock = Clock.systemUTC();
-        System.out.println("Clock : " + clock);
+        System.out.println("Clock : " + clock.millis());
+
         // Returns time based on system clock zone Clock defaultClock =
         Clock.systemDefaultZone();
-        System.out.println("Clock : " + clock);
+        System.out.println("Clock : " + clock.millis());
 
         //判断日期先后
         LocalDate tomorrow = LocalDate.of(2014, 1, 15);
