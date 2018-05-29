@@ -1,9 +1,9 @@
-# CodePoket
+# **CodePoket**
 Some good codes and accumulation..
 
-# Java8.time
+# 一、Java8
 
-## JDK8 中对时间的一些处理以及测试类。
+## java8.Time  JDK8 中对时间的一些处理以及测试类。
 
 >  1、它提供了javax.time.ZoneId用来处理时区。
 >  
@@ -31,7 +31,7 @@ Some good codes and accumulation..
 >  10、“MMM d yyyy”与“MMm dd yyyy”这两个日期格式也略有不同，前者能识别出”Jan 2 2014″与”Jan 14 2014″这两个串，而后者如果传进来的是”Jan 2 2014″则会报错，因为它期望月份处传进来的是两个字符。为了解决这个问题，在天为个位数的情况下，你得在前面补0，比如”Jan 2 2014″应该改为”Jan 02 2014″。
  
  
-# patterns 设计模式的小例子
+# 二、patterns 设计模式
 ## patterns.factory 工厂模式
 
 > 核心思想：通过反射来进行类的实例化，减少重复性的代码
@@ -85,7 +85,7 @@ public class Factory {
 >
 
 
-# schedule 定时任务
+# 三、schedule 定时任务
 
 一个cron表达式有至少6个（也可能7个）有空格分隔的时间元素。
 
